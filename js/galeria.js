@@ -29,3 +29,24 @@ $(document).on('ready',function(){
 		$('#foto img').attr('src',src)
 		$('#Titulo h2').text(title);
 });//click foto4
+
+	$('#foto5').on('click',function(){
+		var src= $('#foto5 img').attr('src');
+		var title= $('#foto5 img').attr('title');
+		$('#foto img').attr('src',src)
+		$('#Titulo h2').text(title);
+});//click foto5
+
+	$('#foto6').on('click',function(){
+		var src= $('#foto6 img').attr('src');
+		var title= $('#foto6 img').attr('title');
+		$('#foto img').attr('src',src)
+		$('#Titulo h2').text(title);
+});//click foto6
+
+	$('#foto7').on('click',function(){
+		var src= $('#foto7 img').attr('src');
+		var title= $('#foto7 img').attr('title');
+		$('#foto img').attr('src',src)
+		$('#Titulo h2').text(title);
+});//click foto7
