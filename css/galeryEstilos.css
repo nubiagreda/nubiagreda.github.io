@@ -1,0 +1,50 @@
+body,html{
+	background-image:url('../imagenes/fondo.jpg');}
+
+#Contenedor{
+	margin:0 auto;
+	text-align:center;
+}
+
+h1{font-family:arial;
+	font-size:35px;
+	color:maroon;}
+
+.thumb{
+	text-align:center;
+	margin:0 auto;
+}
+
+.thumb img{
+	opacity:0.5;
+	-moz-opacity:0.5;
+	filter:alpha(opacity=5);
+	box-shadow:10px 10px 5px #888;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow:10px 10px 5px #888;
+}
+
+.thumb img:hover{
+	opacity:1;
+	-moz-opacity:1;
+	filter:alpha(opacity=1);
+}
+
+#Titulo{
+	color:maroon; 
+	background:none;
+	font-size:24px;
+	font-family:arial;
+	height:50px;
+}
+
+#foto{
+	margin:0 auto;
+	width:600px;
+	height:500px;
+	box-shadow:10px 10px 5px #888;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow:10px 10px 5px #888;
+}
+
+
