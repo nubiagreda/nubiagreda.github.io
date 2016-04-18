@@ -4,7 +4,7 @@
 	max-width:1400px;
 	margin:0 auto;
 	min-width:900px;
-	width:85%;
+	width:80%;
 }
 body{
 	background:green;
@@ -39,7 +39,7 @@ footer{
 	li{
 		float:left;
 		list-style-type: none;
-		padding:8px;
+		padding:10px;
 		background:gray;
 		margin:3px;
 		border-radius: 10px;
@@ -54,7 +54,7 @@ section{
 	color:#DDD;
 	margin:1em auto;
 	padding:2em;
-	width:55%;
+	width:50%;
 	text-align:justify;
 }
 

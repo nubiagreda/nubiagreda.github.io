@@ -44,9 +44,4 @@ $(document).on('ready',function(){
 		$('#Titulo h2').text(title);
 });//click foto6
 
-	$('#foto7').on('click',function(){
-		var src= $('#foto7 img').attr('src');
-		var title= $('#foto7 img').attr('title');
-		$('#foto img').attr('src',src)
-		$('#Titulo h2').text(title);
-});//click foto7
+	

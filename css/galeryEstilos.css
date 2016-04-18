@@ -3,10 +3,10 @@ body,html{
 
 #Contenedor{
 	margin:0 auto;
-	text-align:center;
+	text-align:left;
 }
-
-h1{font-family:arial;
+h1{
+	font-family:arial;
 	font-size:35px;
 	color:maroon;}
 
@@ -22,12 +22,30 @@ h1{font-family:arial;
 	box-shadow:10px 10px 5px #888;
 	-moz-box-shadow: 10px 10px 5px #888;
 	-webkit-box-shadow:10px 10px 5px #888;
-}
 
+}
 .thumb img:hover{
 	opacity:1;
 	-moz-opacity:1;
 	filter:alpha(opacity=1);
+
+	}
+	ul{
+		margin:auto;
+		padding-top: 20px;
+		list-style:none;
+	}
+	li{
+		float:left;
+		list-style-type: none;
+		padding:8px;
+		background:gray;
+		margin:3px;
+		border-radius: 10px;
+		box-shadow: 0 0 10px white inset;
+		float:center;
+
+
 }
 
 #Titulo{
@@ -40,7 +58,7 @@ h1{font-family:arial;
 
 #foto{
 	margin:0 auto;
-	width:600px;
+	width:700px;
 	height:500px;
 	box-shadow:10px 10px 5px #888;
 	-moz-box-shadow: 10px 10px 5px #888;
